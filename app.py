@@ -37,10 +37,10 @@ def export_virtualbox_vm(vboxmanage_path, vm_name,local_dir):
         return None
 # Function to get AWS credentials and S3 details from the user
 def get_user_input():
-    friend_access_key = "AKIA244HY7VOKJHIYXRL"
-    friend_secret_key = "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"
-    friend_s3_bucket = "capston1.0"
-    friend_vm_image_key = "putty-64bit-0.79-installer.msi"
+    friend_access_key = ""
+    friend_secret_key = ""
+    friend_s3_bucket = ""
+    friend_vm_image_key = ""
     
     return friend_access_key, friend_secret_key, friend_s3_bucket, friend_vm_image_key
 def import_virtualbox_vm(vboxmanage_path, ova_path):
